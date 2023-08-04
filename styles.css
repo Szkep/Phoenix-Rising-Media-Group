@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.container {
+    height: 100vh;
+    height: 100svh;
+    overflow-y: auto;
+}
+
+.showcase {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    min-height: 100svh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    color: #fff;
+}
+
+.showcase header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 80px 100px;
+    z-index: 1000;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    justify-content: right;
+    justify-items: center;
+}
+
+.showcase video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    height: 100svh;
+    object-fit: cover;
+    opacity: .8;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    height: 100svh;
+}
+
+.name {
+    position: relative;
+    font-size: 16px;
+}
+
+.name h2 {
+    font-size: 6em;
+    line-height: 80px;
+}
+
+.name h4 {
+    padding-left: 4.5px;
+    font-size: 1.5em;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.menü {
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+.menü:hover {
+    cursor: pointer;
+    font-size: 23px;
+    transition: .15s;
+}
+
+.second-page {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 70vh;
+    height: 70svh;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(-90deg, rgb(149, 122, 180), rgb(225, 206, 206));
+}
+
+.fenrys-img {
+    object-fit: cover;
+    height: 70vh;
+    height: 70svh;
+    margin-right: 100px;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.CEO {
+    display: grid;
+    justify-content: right;
+}
+
+.fenrys-vaughn {
+    align-self: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 1px black;
+    font-size: 20px;
+    width: 75vh;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.row h1 {
+    width: 75vh;
+    max-width: 600px;
+    margin: 0 auto 10px;
+}
+
+.portfólió {
+    height: 100vh;
+    height: 100svh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    overflow: hidden;
+    background-color: lightgray;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(134, 134, 134);
+}
+
+.port-img {
+    height: 48vh;
+    height: 48svh;
+    min-height: 45vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 1px black;
+}
